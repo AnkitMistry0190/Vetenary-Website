@@ -1,0 +1,324 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+
+#top-nav {
+  background-color: #daac00;
+  padding: 1% 6%;
+}
+
+.navbar-dark .navbar-nav a.nav-link {
+  padding-left: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+#searchbox::placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+#searchbox {
+  background-color: #fcc302;
+  color: white;
+  border: 0px;
+  border-radius: 0;
+  position: relative;
+  left: 47px;
+  box-shadow: 8px 10px 20px 0px #8b6a1d82;
+  font-size: 20px;
+}
+
+#searchbtn {
+  position: relative;
+  z-index: 90;
+  background-color: #00bec9;
+  color: white;
+  border: 0;
+  border-radius: 0px;
+  padding: 0 7%;
+}
+
+@media only screen and (max-width: 991px) {
+  #searchform {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -7px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #top-nav {
+    background-color: #daac00;
+    padding: 1% 1%;
+  }
+
+  img.mob {
+    width: 90%;
+  }
+}
+
+/* BANNER  SECTION */
+
+#banner {
+  background-color: #fcc302;
+}
+
+#bannertext {
+  padding-top: 110px;
+}
+
+#bannertext h1 {
+  color: white;
+  font-size: 80px;
+  margin-top: -140px;
+}
+
+#bannertext p {
+  color: white;
+  font-size: 28px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#banner-btn-1 {
+  background-color: #00bec9;
+  color: white;
+  margin-right: 30px;
+}
+
+#banner-btn-2 {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+#bannerimg img {
+  margin-right: 60px;
+}
+
+@media only screen and (max-width: 1300px) {
+  #bannertext h1 {
+    font-size: 55px;
+  }
+
+  #bannertext p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #bannertext h1 {
+    font-size: 40px;
+  }
+
+  #bannertext p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #bannertext {
+    width: 95%;
+  }
+
+  #bannertext h1 {
+    font-size: 30px;
+  }
+
+  #bannertext p {
+    font-size: 14px;
+  }
+}
+
+/* SERVICE  SECTION */
+
+#service {
+  padding: 30px 0px;
+}
+
+#service-text {
+  padding: 3%;
+}
+
+#service-text h1 {
+  font-weight: bold;
+  color: #2b2b3e;
+}
+
+#service-text p {
+  font-size: 20px;
+  color: #2b2b3e;
+}
+
+#service-btn {
+  background-color: #fcc302;
+  color: white;
+}
+
+#service-img {
+  padding: 5%;
+}
+
+@media only screen and (max-width: 900px) {
+  #service-text {
+    width: 53%;
+  }
+  @media only screen and (max-width: 500px) {
+    #service-text {
+      width: 90%;
+    }
+  }
+}
+
+/* COUNTER SECTION */
+
+#counter {
+  background-image: url("images/counter.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 8% 0;
+}
+
+#counter h1 {
+  font-size: 70px;
+}
+
+@media only screen and (max-width: 500px) {
+  #counter h1 {
+    font-size: 50px;
+  }
+}
+
+/* BLOG SECTION */
+
+#blog {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#post-title h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #2b2b3e;
+}
+
+#post-title h4 {
+  color: #2b2b3e;
+  margin-bottom: 70px;
+}
+
+.article-detail {
+  padding: 15px;
+  border: 1px solid rgb(185, 185, 185);
+  border-top: 0;
+}
+.article-detail h4 {
+  font-weight: 700;
+}
+
+.article-detail .date {
+  color: #00bec9;
+}
+
+.article-detail a {
+  color: #00bec9;
+  font-size: 18px;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+  background-color: #343434;
+  color: white;
+  padding: 80px 0;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer-searchbox {
+  border: none;
+  outline: none;
+  background-color: #fcc302;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  left: 5px;
+  margin-bottom: 10px;
+}
+
+#footer-btn {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #00bec9;
+  padding: 12px 40px;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  font-size: 28px;
+  padding-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1150px) {
+  
+  #footer-searchbox {
+    max-width: 150px;
+  }
+
+  #footer-btn {
+    padding: 12px 20px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+  #footer {
+    padding: 10px 0;
+  }
+
+  #footer-searchbox {
+    max-width: 150px;
+  }
+
+  #footer-btn {
+    padding: 12px 20px;
+  }
+
+  #footer h3 {
+    margin-top: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  
+  #footer {
+    padding: 10px 0;
+  }
+
+  #footer-searchbox {
+    max-width: 75%;
+  }
+
+  #footer-btn {
+    padding: 12px 20px;
+  }
+
+  #footer h3 {
+    margin-top: 50px;
+  }
+
+}
